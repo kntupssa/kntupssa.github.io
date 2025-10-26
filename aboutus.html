@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNTU PSSA | About us</title>
+    <meta name="description"
+        content="Meet the passionate team of students driving the Physics Students Scientific Association forward.">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+        .socials {
+            display: grid;
+            height: 100%;
+            width: 100%;
+            font-family: "Poppins", sans-serif;
+            place-items: center;
+            background: linear-gradient(315deg, #ffe8e8, #d7e1ec);
+        }
+
+        .wrapper {
+            display: inline-flex;
+            list-style: none;
+        }
+
+        .wrapper .icon {
+            position: relative;
+            background: #ffffff;
+            border-radius: 50%;
+            padding: 0px;
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .tooltip {
+            position: absolute;
+            top: 0;
+            font-size: 14px;
+            background: #ffffff;
+            color: #ffffff;
+            padding: 5px 8px;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .tooltip::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background: #ffffff;
+            bottom: -3px;
+            left: 50%;
+            transform: translate(-50%) rotate(45deg);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .icon:hover .tooltip {
+            top: -45px;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .wrapper .icon:hover span,
+        .wrapper .icon:hover .tooltip {
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .wrapper .facebook:hover,
+        .wrapper .facebook:hover .tooltip,
+        .wrapper .facebook:hover .tooltip::before {
+            background: #1877F2;
+            color: #ffffff;
+        }
+
+        .wrapper .twitter:hover,
+        .wrapper .twitter:hover .tooltip,
+        .wrapper .twitter:hover .tooltip::before {
+            background: #1DA1F2;
+            color: #ffffff;
+        }
+
+        .wrapper .instagram:hover,
+        .wrapper .instagram:hover .tooltip,
+        .wrapper .instagram:hover .tooltip::before {
+            background: #E4405F;
+            color: #ffffff;
+        }
+
+        .wrapper .github:hover,
+        .wrapper .github:hover .tooltip,
+        .wrapper .github:hover .tooltip::before {
+            background: #333333;
+            color: #ffffff;
+        }
+
+        .wrapper .youtube:hover,
+        .wrapper .youtube:hover .tooltip,
+        .wrapper .youtube:hover .tooltip::before {
+            background: #CD201F;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="./index.html" class="logo"><img style="width: 80px; height: 80px; float: left;"
+                    src="assets/logo.svg" />
+                <div style="margin-left: 20px; text-align: left; float:left; height: 80px; line-height: 80px;">
+                    <h5 style="float: left; margin-right: 10px;">KNTU</h5>
+                    <h5 style="float: left;">PSSA</h5>
+                </div>
+            </a>
+
+            <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+                <ul role="menubar">
+
+                    <li role="none">
+                        <a href="./blog.html" class="" role="menuitem">Blog</a>
+                    </li>
+
+                    <li role="none">
+                        <a href="./news.html" class="" role="menuitem">News</a>
+                    </li>
+
+                    <li role="none">
+                        <a href="./aboutus.html" class="active" role="menuitem">About Us</a>
+                    </li>
+
+                    <li role="none">
+                        <a href="./authors.html" class="" role="menuitem">Authors</a>
+                    </li>
+
+                    <li role="none">
+                        <a href="#" class="" role="menuitem">Discover</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+
+        <div class="about-page">
+            <header class="about-hero">
+                <div class="container">
+                    <h1>About us</h1>
+                    <p class="lead">
+                    <p>Nisi nostrud Lorem irure aliqua id qui do tempor consectetur in. In reprehenderit veniam Lorem
+                        consectetur duis ea nulla qui. Consequat sint consectetur esse consectetur non. Id adipisicing
+                        dolore veniam dolor ipsum occaecat sunt Lorem veniam velit dolore sint minim velit. Laboris id
+                        irure est ea esse magna mollit cillum irure labore. Esse minim sint id veniam fugiat.</p>
+                    </p>
+                </div>
+            </header>
+
+
+            <div class="team-section">
+                <div class="container">
+                    <h2>Meet The Team</h2>
+                    <div class="team-grid">
+
+                        <div class="team-card">
+                            <img src="./member1.jpg" alt="Photo of Dr. Nassiri-rad" class="team-card-img">
+                            <div class="team-card-content">
+                                <h3 class="team-card-name">Dr. E. Noruzifar</h3>
+                                <p class="team-card-role">Faculty Advisor</p>
+                                <p class="team-card-bio">Nisi ut irure voluptate et sit ut ullamco irure aliqua
+                                    incididunt qui in consectetur deserunt.</p>
+                            </div>
+                        </div>
+
+                        <div class="team-card">
+                            <img src="./member1.jpg" alt="Photo of Ehsan Aramideh" class="team-card-img">
+                            <div class="team-card-content">
+                                <h3 class="team-card-name">Ehsan Aramideh</h3>
+                                <p class="team-card-role">President</p>
+                                <p class="team-card-bio">Commodo pariatur cillum reprehenderit qui deserunt culpa
+                                    adipisicing proident occaecat.</p>
+                            </div>
+                        </div>
+
+                        <div class="team-card">
+                            <img src="./member1.jpg" alt="Photo of Asal Jafari" class="team-card-img">
+                            <div class="team-card-content">
+                                <h3 class="team-card-name">Asal Jafari</h3>
+                                <p class="team-card-role">Head of Publications</p>
+                                <p class="team-card-bio">Ullamco fugiat consequat Lorem adipisicing consequat magna
+                                    dolore nulla est sit et est.</p>
+                            </div>
+                        </div>
+
+                        <div class="team-card">
+                            <img src="./member1.jpg" alt="Photo of Maryam Sharghi" class="team-card-img">
+                            <div class="team-card-content">
+                                <h3 class="team-card-name">Taha Roshanbin</h3>
+                                <p class="team-card-role">Events Coordinator</p>
+                                <p class="team-card-bio">Incididunt sit eiusmod exercitation laboris cillum cillum ipsum
+                                    id sit ut.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="cta-section">
+                <div class="container">
+                    <h2>Join Our Mission</h2>
+                    <p>Become a member today to participate in exclusive events, workshops, and research projects.</p>
+                    <a href="#" class="cta-button">Become a Member</a>
+                </div>
+            </section>
+        </div>
+        <div class="socials">
+            <ul class="wrapper">
+                <li class="icon facebook" style="padding: 0;">
+                    <span class="tooltip">Linkedin</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <a href="https://www.linkedin.com/company/physics-kntu" class=""
+                        style="overflow: hidden; border-radius: 50%;">
+                        <img src="./assets/linkedin.svg" />
+                    </a>
+                </li>
+                <li class="icon twitter">
+                    <span class="tooltip">Telegram</span>
+                    <span><i class="fab fa-twitter"></i></span>
+                    <a href="https://t.me/physicskntu" class="" style="overflow: hidden; border-radius: 50%;">
+                        <img src="./assets/telegram.svg" />
+                    </a>
+                </li>
+                <li class="icon instagram">
+                    <span class="tooltip">Instagram</span>
+                    <span><i class="fab fa-instagram"></i></span>
+                    <a href="https://www.instagram.com/kntuphysics" class=""
+                        style="overflow: hidden; border-radius: 50%;">
+                        <img src="./assets/instagram.svg" />
+                    </a>
+                </li>
+                <li class="icon github">
+                    <span class="tooltip">Github</span>
+                    <span><i class="fab fa-github"></i></span>
+                    <a href="https://github.com/kntupssa" class="" style="overflow: hidden; border-radius: 50%;">
+                        <img src="./assets/github.svg" />
+                    </a>
+                </li>
+                <li class="icon youtube">
+                    <span class="tooltip">Email</span>
+                    <span><i class="fab fa-youtube"></i></span>
+                    <a href="mailto:knourafshan@gmail.com" class="" style="overflow: hidden; border-radius: 50%;">
+                        <img src="./assets/email.svg" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            &copy; 2025 PSSA | All Rights Reserved
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

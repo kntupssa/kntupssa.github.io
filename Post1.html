@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script src="Post1_files/livereload.js" data-no-instant="" defer="defer"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Post #1 | PSSA</title>
+    <meta name="description"
+        content="Mollit duis esse nisi et incididunt tempor irure occaecat sunt labore in laboris elit exercitation.">
+    <style>
+        :root {
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --font-serif: 'Lora', 'Georgia', serif;
+            --color-text: #222;
+            --color-bg: #f8f7f2;
+            --color-primary: #005f73;
+            --color-meta: #777;
+            --color-border: #e0e0e0;
+            --container-width: 840px;
+            --radius: 6px;
+            --transition: all 0.2s ease-in-out;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:ital,wght@0,400;1,400&display=swap');
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            margin: 0;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: var(--font-serif);
+            line-height: 1.2;
+            margin: 1.5em 0 0.5em;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+        }
+
+        h2 {
+            font-size: clamp(2rem, 4vw, 2.5rem);
+        }
+
+        a {
+            color: var(--color-primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            opacity: 0.8;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--radius);
+        }
+
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .site-header {
+            padding: 1.5rem 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-text);
+        }
+
+        .logo:hover {
+            text-decoration: none;
+            opacity: 1;
+        }
+
+        .main-nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .main-nav a {
+            color: var(--color-text);
+            font-weight: 500;
+        }
+
+        .main-nav a.active {
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+
+        .post-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .post-item {
+            padding: 2.5rem 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .post-item-title {
+            font-size: 1.8rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .post-item-title a {
+            color: var(--color-text);
+        }
+
+        .post-item-title a:hover {
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+
+        .post-item-meta {
+            color: var(--color-meta);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .post-item-description {
+            margin: 0;
+        }
+
+        .post-header h1 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .post-meta {
+            color: var(--color-meta);
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .post-meta a {
+            color: var(--color-meta);
+        }
+
+        .post-thumbnail {
+            margin-bottom: 2rem;
+        }
+
+        .post-body {
+            font-family: var(--font-serif);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .post-tags {
+            margin-top: 3rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #eef;
+            color: var(--color-primary);
+            padding: 0.25em 0.75em;
+            border-radius: 99px;
+            font-size: 0.8rem;
+            font-family: var(--font-sans);
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .site-footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 1rem;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-meta);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="./index.html" class="logo"><img style="width: 80px; height: 80px; float: left;"
+                    src="assets/logo.svg" />
+                <div style="margin-left: 20px; text-align: left; float:left; height: 80px; line-height: 80px;">
+                    <h5 style="float: left; margin-right: 10px;">KNTU</h5>
+                    <h5 style="float: left;">PSSA</h5>
+                </div>
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+
+                    <li>
+                        <a href="./blog.html" class="active">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="./news.html" class="">News</a>
+                    </li>
+
+                    <li>
+                        <a href="./aboutus.html" class="">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="./authors.html" class="">Authors</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="">Discover</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Open navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+
+        <article class="container">
+            <header class="post-header">
+                <h1>[Title]</h1>
+                <div class="post-meta">
+                    <span>September 15, 2025</span> |
+                    <span>By <a href="https://github.com/[Author]">[Author]</a></span>
+                </div>
+            </header>
+
+
+            <img src="./assets/thumbnail.jpg" alt="Test Post #1" class="post-thumbnail">
+            <div class="post-tags">
+
+                <span class="tag">Quantum Physics</span>
+
+                <span class="tag">Entanglement</span>
+
+                <span class="tag">Theory</span>
+
+                <span class="tag">Review</span>
+
+            </div>
+
+            <div class="post-body">
+                <h2 id="dolore-proident-exercitation-sit-do-ex-et-laboris-nostrud-nulla">Dolore proident exercitation
+                    sit do ex et laboris nostrud nulla.</h2>
+                <p>Cupidatat culpa nulla excepteur commodo. Irure consectetur amet culpa
+                    nisi est laboris consectetur do non fugiat ad in voluptate. Cupidatat
+                    do pariatur consequat aliquip sit quis nisi consequat nisi deserunt
+                    exercitation tempor esse. Quis velit ullamco exercitation exercitation
+                    qui consectetur dolor fugiat sunt qui deserunt aliqua aute.</p>
+                <p>Id cillum labore ea cupidatat ipsum laboris laborum.</p>
+
+            </div>
+
+
+
+
+        </article>
+
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            © 2025 PSSA | All Rights Reserved
+        </div>
+    </footer>
+
+</body>
+
+</html>
